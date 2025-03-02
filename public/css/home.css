@@ -752,17 +752,10 @@
     letter-spacing: 0%;
 }
 
-.small_product_box .top_img{
+.small_product_box img{
     position: absolute;
     right: 30px;
-    top: 40px;
-}
-
-.small_product_box .bottom_img{
-    position: absolute;
-    right: 20px;
-    top: 80px;
-}
+    bottom: 15px;
 
 
 
