@@ -54,18 +54,6 @@
  /*all_main_frame*/
 
 
-.all_main_frame{
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    justify-content: center;
-}
-
-.all_main_frame  .container{
-    height: 884px;
-    flex-direction: column;
-}
 
 .bread_crumb_box{
     margin-top: 37px;
@@ -86,22 +74,33 @@
     line-height: 22px;
 }
 
-.discount_box{
-    margin: 20px 0 40px 0;
+
+    /* all_content_frame */
+
+.all_content_frame{
     width: 100%;
-    height: 425px;
+    height: auto;
 
     display: flex;
-    flex-direction: column;
-
-    border-radius: 5px;
-    background: url(../images/other/rasm.png) no-repeat;
-
-
+    justify-content: center;
 }
 
-.discount_box_text{
-    margin: 50px 0 0 81px;
+.all_content_frame .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.all_content_wrapper{
+    margin-top: 20px;
+    width: 100%;
+    height: 427px;
+    
+    background: url("../images/other/rasm.png");
+    background-size: cover;
+    
+}
+
+.all_content_wrapper .all_content_text{
     width: 366px;
     height: 218px;
 
@@ -109,9 +108,11 @@
     flex-direction: column;
     justify-content: space-between;
 
+    margin: 80px;
+
 }
 
-.discount_box_text span{
+.all_content_wrapper .all_content_text span{
     color: rgb(4, 30, 66);
     font-family: Jost;
     font-size: 28px;
@@ -120,7 +121,7 @@
     letter-spacing: 0%;
 }
 
-.discount_box_text p{
+.all_content_wrapper .all_content_text p{
     color: rgb(4, 30, 66);
     font-family: Jost;
     font-size: 16px;
@@ -129,38 +130,32 @@
     letter-spacing: 0%;
 }
 
-.discount_box_text a{
+.all_content_wrapper .all_content_text a{
+    display: block;
     width: 145px;
     height: 52px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-    box-sizing: border-box;
     border: 1px solid rgb(245, 195, 75);
     border-radius: 6px;
     background: rgb(245, 195, 75);
 
-    color: var(--Color-Text-Dark, #041E42);
-    font-family: Jost;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px; /* 146.667% */
-}
-
-.all_pagination{
-    margin-top: 80px;
-    margin-left: 100px;
-    width: 169px;
-    height: 22px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.all_pagination{
+    width: 170px;
+    height: 18px;
+
+    margin-left: 95px;
+}
+
+
+
+
+
+
 
   /* shop brand frame */
 
