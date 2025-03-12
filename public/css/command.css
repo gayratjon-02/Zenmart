@@ -586,7 +586,7 @@ p{
 
 .footer_frame   .social_box i{
     color: rgb(4, 30, 66);
-    font-family: var(--font);
+    /* font-family: var(--font); */
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
