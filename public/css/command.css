@@ -381,7 +381,36 @@ p{
     text-align: center;
 }
 
+/*seeling product frame*/
 
+.selling_product_frame {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.selling_product_frame .container {
+    flex-direction: column;
+
+}
+
+.selling_product_frame   .container .product_wrapper{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 /*CATEGORY  TOP*/
