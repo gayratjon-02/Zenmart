@@ -16,6 +16,84 @@ a{
 p{
     margin: 0;
 }
+/* bread */
+
+.bread_crumb_box{
+    margin-top: 37px;
+    width: 353px;
+    height: 22px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bread_crumb_box a{
+    color: var(--Color-Text-Light, #626974);
+
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+/* all_category_frame */
+
+.all_category_frame{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid #e5edff;
+
+   border: 1px solid rgb(234, 234, 234);
+    background: rgb(255, 255, 255);
+
+}
+
+.all_category_frame  .container{
+    height: auto;
+    flex-direction: column;
+}
+
+.all_category_frame  .container .all_category_wrapper {
+    position: relative;
+    width: 100%;
+    height: 22px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.all_category_frame  .container .all_category_wrapper a{
+    margin-right: 38px;
+
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
+ .all_category_wrapper .lined-box-1{
+    width: 52px;
+    height: 2px;
+     position: absolute;
+    left: 224px;
+    bottom: -16px;
+
+    background: rgb(4, 30, 66);
+}
+
 
 
 
