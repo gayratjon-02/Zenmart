@@ -532,6 +532,70 @@
 
 
 
+.related_frame{
+    margin: 30px 0;
+    width: 100%;
+}
+
+.related_frame span{
+    color: rgb(98, 105, 116);
+    font-family: Jost;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.related_frame p{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.related_frame .review_box span{
+    margin-left: 10px;
+
+    color: rgb(98, 105, 116);
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
+
+
+.related_frame  .price_box strong{
+    margin-right: 10px;
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+
+}
+
+.related_frame  .price_box span{
+    color: rgb(98, 105, 116);
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+
+
+
 
 
 
