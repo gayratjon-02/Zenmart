@@ -1,0 +1,410 @@
+/* checkout_content_frame */
+
+
+.checkout_content_frame{
+    width: 100%;
+    height: 1474px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.choosen_bread_frame{
+    display: flex;
+}
+.bill_wrapper{
+    width: 100%;
+    display: flex;
+}
+.checkout_content_frame span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+input{
+    /* width: 100%; */
+    height: 55px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+
+}
+
+
+.checkout_wrapper  h1{
+    margin-top: 82px;
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.billing_box{
+    width: 858px;
+    height: 892px;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+.billing_box strong{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.billing_box  .names{
+    width: 100%;
+    height: 88px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.billing_box  .names .first_name{
+    margin-top: 20px;
+    width: 413px;
+    
+}
+
+.billing_box  .names .first_name input{
+    width: 100%;
+    height: 55px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+}
+
+/* last name */
+
+
+.billing_box  .names .last_name{
+    margin-top: 20px;
+    width: 413px;
+    
+}
+
+.billing_box  .names  .last_name input{
+    position: relative;
+    width: 100%;
+    height: 55px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.company_name{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 88px;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.company_name select{
+    border: none;
+    outline: none;
+    width: 828px;
+    height: 22px;
+    position: absolute;
+    top: 45px;
+    right: 14px;
+
+    color: rgb(98, 105, 116);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+
+/* order  top */
+
+
+.order_box{
+    margin-left: 40px;
+    width: 422px;
+    height: 554px;
+}
+
+.order_top h2{
+    margin-left: 26px;
+    color: var(--Color-Text-Dark, #041E42);
+
+    /* 20 / Medium */
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.order_box .order_top{
+    width: 100%;
+    height: 376px;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+.order_content_wrapper{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.order_top  .order_content{
+    width: 366px;
+    height: 263px;
+
+    /* display: flex;
+    flex-direction: row; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mac_info{
+    width: 100%;
+    height: 22px;
+    margin-bottom: 20px;
+
+}
+
+.mac_info span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.mac_info strong{
+    margin-left: 18px;
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.order_content .sub_total{
+    width: 100%;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.order_content .sub_total  span{
+    color: var(--Color-Text-Dark, #041E42);
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 218.75% */
+}
+
+.order_box .order_bott_agree{
+    margin-top: 30px;
+    width: 422px;
+    height: 66px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.order_bott_text{
+    width: 394px;
+    margin-left: 20px;
+
+}
+.order_bott_text a{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.order_inp {
+    width: 15px;
+    display: flex;
+    vertical-align: text-top;
+}
+
+.order_botton{
+    height: 52px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+}
+
+.order_botton span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+/* shipping_details */
+
+.shipping_details{
+    margin-top: 60px;
+    width: 858px;
+    height: 340px;
+
+
+}
+
+.shipping_details strong{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.order_notes{
+    width: 100%;
+    height: 290px;
+
+
+}
+
+.order_notes span{
+    margin-top: 20px;
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.order_notes textarea{
+    width: 100%;
+    height: 257px;
+    padding: 0;
+    
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
