@@ -1,0 +1,410 @@
+/* main_content_frame */
+
+
+
+.main_content_frame{
+    margin-top: 30px;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.main_content_frame .container .main_left{
+    width: 198px;
+    height: 341px;
+    background-coor: rgb(245, 235, 235);
+}
+
+.main_left .account_top{
+    width: 100%;
+    height: 62px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.account_top .account_img{
+    width: 37px;
+    height: 40px;
+
+    border-radius: 60px;
+
+    background: url("../images/icons/150-25\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.account_top .profile_info{
+    width: 125px;
+    height: 50px;
+
+    margin-left: 11px;
+}
+
+.account_top .profile_info span{
+    width: 125px;
+    color: var(--Color-Text-Dark, #041E42);
+
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+}
+
+.account_top .profile_info strong{
+    color: var(--Color-Text-Dark, #041E42);
+
+    /* 16/Medium */
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+}
+
+.main_left .account_bott{
+    margin-top: 10px;
+    width: 139px;
+    height: 270px;
+
+    display: flex;
+}
+
+.account_bott .account_logos{
+    width: 32px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.account_bott .account_logos img{
+    width: 18px;
+    height: 20px;
+}
+
+
+.account_bott .account_texts{
+    width: 107px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* main_right */
+
+.main_right{
+    margin-left: 80px;
+    width: 1057px;
+    height: 1376px;
+
+
+
+}
+
+.main_right h1{
+    margin-bottom: 30px;
+    color: var(--Color-Text-Dark, #041E42);
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main_right .user_get_info_wrapper{
+    width: 1057px;
+    height: 1236px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.user_get_info_wrapper .profile_information{
+    margin-bottom: 84px;
+    width: 100%;
+    height: 331px;
+
+}
+
+.info_head{
+    margin-bottom: 30px;
+    width: 351px;
+    height: 33px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_head span{
+    color: var(--Color-Text-Light, #626974);
+
+    /* 16/Medium */
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.profile_under{
+    color: var(--Color-Text-Dark, #021022);
+
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    border-bottom: 2px solid rgb(2, 20, 45);
+
+}
+
+
+.profile_information .input_wrapper{
+    width: auto;
+    height: 268px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input_wrapper .input_box{
+    margin-right: 23px;
+    width: 505px;
+    height: 88px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input_box span{
+    color: var(--Color-Text-Dark, #041E42);
+
+    /* 16/Medium */
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+}
+
+.input_box input{
+    width: 510px;
+    height: 55px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+}
+.info_bott{
+    width: 183px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.info_bott .update_butt{
+    margin-right: 19px;
+    width: 118px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.info_bott strong{
+    color: var(--Color-Text-Dark, #041E42);
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 146.667% */
+}
+
+/* profile_password */
+
+.profile_password{
+    width: 555px;
+    height: 439px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+
+}
+
+.profile_password .pass_input{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_password .pass_input  span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.profile_password .pass_input  input{
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+}
+
+/* profile_permissions */
+
+.profile_permissions{
+    margin-top: 30px;
+    width: 725px;
+    height: 406px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile_permissions .sms_box{
+    position: relative;
+    height: 77px;
+
+    border-bottom: 1px solid rgb(234, 234, 234);
+
+
+}
+
+.sms_box .on_off{
+    position: absolute;
+    width: 58px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    right: 0;
+    top: 18px;
+
+    border-radius: 30px;
+    background: rgb(4, 30, 66);
+    
+}
+
+.on_off .right_white{
+    width: 25px;
+    height: 24px;
+
+    border-radius: 200px;
+
+    background: rgb(255, 255, 255);
+
+}
+
+.off_on{
+    position: absolute;
+    width: 58px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    right: 0;
+    top: 18px;
+
+    border-radius: 30px;
+
+    background: rgb(243, 245, 246);
+
+
+}
+
+.off_on .left_white{
+    width: 25px;
+    height: 24px;
+
+    border-radius: 200px;
+
+box-shadow: 0px 2px 2px 0px rgba(17, 33, 55, 0.1);
+background: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
