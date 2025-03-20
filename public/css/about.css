@@ -1,0 +1,299 @@
+/* main_frame */
+
+.main_frame{
+    margin-top: 30px;
+    margin: 30px 0 400px;
+    width: 100%;
+    height: 2220px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main_frame  .container{
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.main_frame  .container .about_image_wrapper{
+    width: 100%;
+    height: 470px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_frame  .about_image_wrapper .about_image_box{
+
+    width: 306px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_frame  .about_image_wrapper .about_image_box:nth-child(even) img{
+    width: 305px;
+    height: 227px;
+
+}
+
+/*about_store_wrapper  */
+
+.main_frame  .container .about_store_wrapper{
+    margin-top: 50px;
+    width: 1142px;
+    height: 499px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main_frame  .about_store_wrapper  h2{
+    color: var(--Color-Text-Dark, #041E42);
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main_frame  .about_store_wrapper  span{
+    color: var(--Color-Text-Dark, #041E42);
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+}
+
+.main_frame  .about_store_wrapper p{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.main_frame  .mission_text{
+    height: 135px;
+
+    display: flex;
+}
+
+.main_frame  .mission_text strong{
+    color: var(--Color-Text-Dark, #041E42);
+    /* 20 / Medium */
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* reached_wrapper */
+
+.main_frame  .reached_wrapper{
+    margin-top: 120px;
+    width: 1142px;
+    height: 170px;
+
+
+}
+
+.main_frame  .reached_wrapper b{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.main_frame  .reached_wrapper .reacher_bott{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_frame  .reacher_bott .reached_box{
+    width: 165px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_frame  .reacher_bott .reached_box  strong{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+}
+
+.main_frame  .reacher_bott .reached_box span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    
+}
+
+.main_frame  .line_long{
+    margin-top: 60px;
+    width: 1139px;
+    height: 3px;
+    background: rgb(234, 234, 234);
+}
+
+.main_frame  .team_info_wrapper{
+    width: 1142px;
+    height: 473px;
+    display: flex;
+}
+
+.main_frame  .team_info_wrapper .team_items{
+    position: relative;
+    padding-left: 18px;
+    width: 301px;
+    height: 460px;
+    box-sizing: border-box;
+}
+
+.main_frame  .team_items h2{
+    color: var(--Color-Text-Dark, #041E42);
+
+    /* 28 / Medium */
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main_frame  .team_items strong{
+    display: block;
+    margin-top: 10px;
+    color: var(--Color-Text-Dark, #041E42);
+
+    /* 18 / Medium */
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main_frame  .team_items p{
+    color: rgb(98, 105, 116);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+
+
+
+.main_frame  .team_info_wrapper .team_items .items_img_box{
+    position: relative;
+    width: 265px;
+    height: 330px;
+
+    transition: background-color  1s, background-img 2s , opacity 2s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    transition: background-color  0.3s ease  ,  filter  0.3s ease;
+
+    background-image: url("../images/other/mathilde-langevin-PaCzyxEcqiw-unsplash 1.png");
+}
+
+
+.main_frame  .items_img_box_margin{
+    margin-top: 88px;
+}
+
+
+
+/* choose_wrapper */
+
+.main_frame  .choose_wrapper{
+    width: 1144px;
+    height: 185px;
+}
+
+.main_frame  .choose_wrapper h2{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.main_frame  .choose_wrapper .choose_boxes{
+    width: 100%;
+    height: 115px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_frame  .choose_wrapper .choose_boxes .choose_box{
+    width: 207px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_frame  .choose_wrapper .choose_boxes .choose_box img{
+    width: 33px;
+    height: 40px;
+}
+
+.main_frame  .choose_wrapper .choose_boxes .choose_box span{
+    margin-top: 30px;
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.main_frame  .choose_wrapper .choose_boxes .choose_box p{
+    color: rgb(98, 105, 116);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+
+
+
+
+
+
