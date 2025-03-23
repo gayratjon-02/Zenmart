@@ -1,0 +1,234 @@
+/* login_frame */
+
+.login_frame {
+    margin-top: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.login_wrapper{
+    width: 744px;
+    height: 831px;
+
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    box-shadow: 0px 10px 50px 0px rgba(4, 30, 66, 0.376);
+    background: rgb(255, 255, 255);
+
+}
+
+.login_wrapper h2{
+    width: 609px;
+    margin-top: 52px;
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.login_wrapper .log_input{
+    position: relative;
+    width: 608.12px;
+    height: 115.89px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.login_wrapper span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.log_input input{
+    margin: 15px 0;
+    padding-left: 24px;
+    height: 72px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+}
+
+.log_input input:focus{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 30, 66);
+    border-radius: 6px;
+    box-shadow: 0px 10px 20px 0px rgba(4, 30, 66, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+input::placeholder{
+    color: rgb(98, 105, 116);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.login_wrapper  .remember_box{
+    margin-top: 23px;
+    width: 608px;
+    height: 28px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember_box   span{
+
+    display: flex;
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.remember_box   span input{
+    margin-right: 7px;
+    width: 26px;
+    height: 21px;
+}
+
+.remember_box a{
+    color: rgb(68, 50, 151);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+
+
+.login_wrapper .login_butt{
+    margin-top: 34px;
+    width: 608px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(245, 195, 75);
+    border-radius: 6px;
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgb(245, 195, 75);
+}
+
+.login_butt span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+
+.have_acc{
+    margin-top: 35px;
+    width: 447px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.have_acc  span{
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.or_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 608px;
+    height: 53px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1.32px;
+    border-radius: 8px;
+
+    background: rgb(234, 234, 234);
+  }
+  
+  .or-text {
+    padding: 0 10px;
+    font-weight: bold;
+    white-space: nowrap;
+
+    color: rgb(4, 30, 66);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+  }
+
+  .social_wrapper{
+    width: 609px;
+    height: 59px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social_wrapper .social_box{
+    width: 132px;
+    height: 59px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(25, 103, 210);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+  }
+
+  .social_wrapper .social_box i{
+    width: 26.51px;
+    height: 23.71px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  
